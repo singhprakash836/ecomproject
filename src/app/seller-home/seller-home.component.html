@@ -1,0 +1,35 @@
+<div class="sell-home-div">
+<p class="msg-del">{{msg_delete}}</p>
+<table class="tbl-product" >
+<thead>
+    <tr>
+        <th> IMAGE </th>
+<th> NAME  </th>
+<th> PRICE </th>
+<th> COMPANY </th>
+<th> COLOR </th>
+
+<th> DESCRIPTION </th>
+<th> OPERATION </th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor ="let data of productList">
+    <td><img src="{{(data.imageurl)}}"/></td> 
+    <td>{{data.name}}</td>
+    <td>{{data.price}}</td>
+    <td>{{data.company}}</td>
+    <td>{{data.color}}</td>
+    <td>{{data.description}}</td>
+    <td  align="center" >
+        <fa-icon  (click)="deleteProduct(data.id)"  [icon]="iconDel"/>
+        <a  routerLink='/seller-update-product/{{data.id}}'><fa-icon style="margin-left: 50px;" [icon]="iconEdit"/></a>
+    
+    
+    </td>
+
+</tbody>
+
+</table>
+
+</div>

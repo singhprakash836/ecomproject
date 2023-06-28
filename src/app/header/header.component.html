@@ -1,0 +1,24 @@
+
+<nav class="nav">
+
+<h1 routerLink="">E-COM</h1>
+<div class="container"  *ngIf="menyType==='default'">
+    <input type="text" placeholder="Search For Products"/>
+    <button>Search</button> 
+</div>
+
+
+    <ul  [ngSwitch]="menyType"    class="linkClass">
+        <li   *ngSwitchCase="'default'"><a routerLink="" >Home</a></li>
+        <li *ngSwitchCase="'default'"><a routerLink="seller-auth" >Seller</a></li>
+        <li *ngSwitchCase="'default'"><a href="#" >Login</a></li>
+        <li *ngSwitchCase="'default'"><a href="#" >Cart</a></li>
+    </ul>
+
+    <ul  [ngSwitch]="menyType"    class="linkClass">
+        <li   *ngSwitchCase="'seller'"><a routerLink="seller-home" >Product List</a></li>
+        <li *ngSwitchCase="'seller'"><a routerLink="seller-add-product" >Add Product</a></li>
+        <li *ngSwitchCase="'seller'"><a (click)="sellerLogout()"> Logout</a></li>
+        <li class="sName" *ngSwitchCase="'seller'">{{sellerName|uppercase}}</li>
+    </ul>
+</nav>

@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    font-family:cursive;
+    
+}
+.errorMsg{
+    text-align: center;
+    size: 14px;
+    color: red;
+}
+.form-input{
+    // padding: 20px;
+     margin: 10px;
+     height: 35px;
+     cursor:pointer ;
+ }
+ .btn-signup,.btn-login{
+    //  padding: 20px;
+      margin: 10px;
+      height: 35px;
+  }
+  .product_CRUD_MSG{
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    size: 20px;
+    color: blueviolet;
+  }
+  .add_form{
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    width: 300px;
+}
+.msg-del,.msg-update{
+    color: blueviolet;
+    text-align: center;
+    
+
+}

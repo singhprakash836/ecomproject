@@ -1,0 +1,84 @@
+{
+  "seller": [
+    {
+      "name": "amol",
+      "password": "123",
+      "email": "amol",
+      "id": 1
+    },
+    {
+      "name": "prakash",
+      "password": "123",
+      "email": "prakash",
+      "id": 2
+    },
+    {
+      "name": "anjali",
+      "password": "123",
+      "email": "anjali",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "dell",
+      "price": "50000",
+      "company": "dell",
+      "color": "silver",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "Dell company",
+      "id": 3
+    },
+    {
+      "name": "apple",
+      "price": "150000",
+      "company": "apple",
+      "color": "diamond",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "apple is number one company",
+      "id": 4
+    },
+    {
+      "name": "cchgh",
+      "price": "6486486",
+      "company": "nvhgv",
+      "color": "red",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "gcjgc",
+      "id": 5
+    },
+    {
+      "name": "vhk",
+      "price": "6565",
+      "company": "vcmvcv",
+      "color": "nvcxc",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "nfgjgfdj",
+      "id": 6
+    },
+    {
+      "name": "kjl",
+      "price": "cbgdg",
+      "company": "vcxhf",
+      "color": "fbxhfxh",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "nfxjfjgf",
+      "id": 7
+    },
+    {
+      "name": "jhvkhgvkg",
+      "price": "765747",
+      "company": "nxnxn",
+      "color": "xbxcb",
+      "imageurl": "https://guide-images.cdn.ifixit.com/igi/AkT2Xr5FUlBDUsdx.huge",
+      "description": "shfhfsh",
+      "id": 8
+    }
+  ]
+}

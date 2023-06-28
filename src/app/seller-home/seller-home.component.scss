@@ -1,0 +1,28 @@
+.tbl-product{
+    text-align: left;
+    color: blueviolet;
+    border: 1px;
+    border-collapse: collapse;
+}
+.tbl-product td,.tbl-product th,.tbl-product thead{
+border: 1px solid blueviolet;
+padding: 10px;
+min-height: 160px;
+
+}
+.tbl-product thead{
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100px;
+    height: 100px;
+
+}
+.msg-del{
+    color: blueviolet
+
+}
+.sell-home-div{
+   display: grid; 
+}
